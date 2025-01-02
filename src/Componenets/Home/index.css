@@ -1,0 +1,14 @@
+.home-tasks-heading{
+    font-family:"Roboto";
+    font-size: 25px;
+    font-weight: 450;
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+}
+.each-tasks-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

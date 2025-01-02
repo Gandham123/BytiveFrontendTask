@@ -1,0 +1,58 @@
+.to-do-heading{
+    font-family:'Roboto';
+    font-size:35px;
+    color:rgb(73, 153, 233);
+    font-weight:400;
+    text-align: center;
+}
+.to-do-input-main-container{
+   width: 500px;
+   height:auto;
+   border:1px solid #000000; 
+   background:#d9d9dd;
+   border-radius: 20px;
+   padding: 40px;
+}
+.input-label-styling{
+  font-family: 'san-serif';
+  font-size: 20px;
+  color: #323f4b;
+  font-weight: 400;
+}
+.title-input-styling{
+   height: 40px;
+   border: none;
+   outline: none;
+   padding: 5px 20px 5px 20px;
+   font-family: 'Roboto';
+   font-size: 16px;
+   background-color: #ffffff;
+   border-radius: 8px;
+   width: 100%;
+}
+.error-message-styling{
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(223, 24, 24);
+}
+.pending-tasks-name-styling{
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  color: #323f4b;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.active-tab-styling{
+  text-decoration: underline;
+  text-decoration-color: rgb(42, 134, 227);
+  text-underline-offset: 7px;
+  text-decoration-line: 2px;
+}
+.tasks-main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

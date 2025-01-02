@@ -1,0 +1,29 @@
+.each-task-container{
+    background-color: rgb(157, 218, 239);
+    height: 250px;
+    width: 300px;
+    border-radius: 13px;
+    padding: 20px;
+    margin: 20px;
+}
+.each-task-heading{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 450;
+    color: blue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.each-task-status{
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 450;
+    color: #fa5109;
+    margin-bottom: 20px;
+}
+.each-task-discription{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 450;
+    color:#1e293b;
+}

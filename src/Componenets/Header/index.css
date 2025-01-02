@@ -1,0 +1,36 @@
+.header-text-styling{
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+}
+.button-styling{
+      height: 30px;
+      width: 80px;
+      border: 2px solid rgb(6, 243, 144) ;
+      background-color:rgb(73, 70, 70);
+      border-radius: 5px;
+      font-family: "Roboto";
+      font-size: 16px;
+      color: #ffffff;
+      margin-top: 10px;
+}
+.link-styling{
+    text-decoration: none;
+}
+.login-name-styling{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 450;
+    color: rgb(42, 42, 235);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-error-message{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 450;
+    color: rgb(222, 21, 21);
+    margin-left: 12px;
+    
+}
