@@ -1,3 +1,36 @@
+
+## **Responsive Full-Stack To-Do List Manager**
+
+### **Features**  
+1. **Home Page**  
+   - Displays a list of tasks with their title, description, and status.  
+   - Allows users to view tasks added previously.  
+
+2. **Add Task Page**  
+   - Allows users to create a new task by entering a title and description.  
+   - Validates inputs to ensure no empty fields; displays an error message "*Required*" for incomplete fields.  
+   - Alerts "Task posted successfully" upon successful task addition.
+
+3. **Edit Task Page**  
+   - Allows users to update a task's status from "Pending" to "Completed."  
+   - Tasks marked as "Completed" cannot be updated further.
+
+4. **Authentication**  
+   - Includes a login button in the navbar.  
+   - Displays a popup for login credentials (Username: **Satya Bhaskar**, Password: **Satya@123**).  
+   - On successful login, a JWT token is generated and stored in cookies on the client-side.  
+   - All operations are restricted until the user logs in with the correct credentials.  
+
+5. **Backend**  
+   - Built with **Node.js** and **Express.js**.  
+   - SQLite database used to persist data.  
+   - Backend API handles task creation, retrieval, updating, and deletion.  
+   - JWT-based authentication ensures secure access.
+
+6. **Responsiveness**  
+   - The application is fully responsive and works seamlessly across devices.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
